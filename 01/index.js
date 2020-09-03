@@ -12,7 +12,7 @@ let isTrue = false
 fill_table(restAPI)
 
 //Функция для заполнения таблицы на сайте
-function fill_table() {
+function fill_table(data) {
     let table = document.getElementById('myTable')
     table.innerHTML = ''
     table.innerHTML += fill_rows(data, 0)
